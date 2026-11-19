@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
+ 
 static int	ft_next(const char *format, int *i, va_list ap)
 {
 	if (format[*i] != '%')
